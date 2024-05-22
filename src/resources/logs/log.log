@@ -1,0 +1,128 @@
+2024-05-21T15:35:00.529Z  INFO 21836 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 21836 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:35:00.542Z  INFO 21836 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:35:00.693Z  INFO 21836 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T15:35:00.693Z  INFO 21836 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T15:35:03.309Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-21T15:35:03.341Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:35:03.341Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:35:03.470Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:35:03.471Z  INFO 21836 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2777 ms
+2024-05-21T15:35:04.407Z  WARN 21836 --- [mortgageCalculator] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 37f8b4cc-257b-4d4d-8ad7-acfb20415b28
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-21T15:35:04.709Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c743b55, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66eaa63f, org.springframework.security.web.context.SecurityContextHolderFilter@2f6177d, org.springframework.security.web.header.HeaderWriterFilter@1d5edeef, org.springframework.web.filter.CorsFilter@37bb2bc2, org.springframework.security.web.csrf.CsrfFilter@7aed159b, org.springframework.security.web.authentication.logout.LogoutFilter@206d0aca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54d0968, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@62cbd67, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@52a010d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5a340a1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d6fd96b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31df25f3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38393c6e, org.springframework.security.web.access.ExceptionTranslationFilter@5ef738fc, org.springframework.security.web.access.intercept.AuthorizationFilter@400a30f7]
+2024-05-21T15:35:04.785Z  INFO 21836 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:35:04.826Z  WARN 21836 --- [mortgageCalculator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-05-21T15:35:04.862Z  INFO 21836 --- [mortgageCalculator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-21T15:35:04.912Z ERROR 21836 --- [mortgageCalculator] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-05-21T15:35:19.883Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 32568 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:35:19.888Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:35:19.981Z  INFO 32568 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T15:35:19.981Z  INFO 32568 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T15:35:23.056Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:35:23.112Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:35:23.112Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:35:23.269Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:35:23.271Z  INFO 32568 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3288 ms
+2024-05-21T15:35:24.291Z  WARN 32568 --- [mortgageCalculator] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d03da67c-b836-4126-bdcd-a89f9054dc88
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-21T15:35:24.594Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e2e31be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13f61a17, org.springframework.security.web.context.SecurityContextHolderFilter@6c47974a, org.springframework.security.web.header.HeaderWriterFilter@1c02523f, org.springframework.web.filter.CorsFilter@24698d16, org.springframework.security.web.csrf.CsrfFilter@35feab37, org.springframework.security.web.authentication.logout.LogoutFilter@34078244, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@710c3fcc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ecfba8c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@bff5e17, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62fdf511, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74c85794, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56c1787e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64332d17, org.springframework.security.web.access.ExceptionTranslationFilter@52934089, org.springframework.security.web.access.intercept.AuthorizationFilter@259a7594]
+2024-05-21T15:35:24.689Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:35:24.765Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:35:24.789Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 6.066 seconds (process running for 7.66)
+2024-05-21T15:35:30.248Z  INFO 32568 --- [mortgageCalculator] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2024-05-21T15:35:33.103Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 32568 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:35:33.103Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:35:33.607Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:35:33.610Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:35:33.610Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:35:33.650Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:35:33.651Z  INFO 32568 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 543 ms
+2024-05-21T15:35:33.766Z  WARN 32568 --- [mortgageCalculator] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8985ece9-849b-4d5d-91f9-e5c62ecda94b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-21T15:35:33.773Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a351f2c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e80e519, org.springframework.security.web.context.SecurityContextHolderFilter@11b57aff, org.springframework.security.web.header.HeaderWriterFilter@3f806c66, org.springframework.web.filter.CorsFilter@2e019567, org.springframework.security.web.csrf.CsrfFilter@4009daba, org.springframework.security.web.authentication.logout.LogoutFilter@4655a303, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7da5be90, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e3b263a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22b2988c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1603579c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fe7be79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62e4955c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@702c2f89, org.springframework.security.web.access.ExceptionTranslationFilter@2c0a2e8f, org.springframework.security.web.access.intercept.AuthorizationFilter@7d06c27]
+2024-05-21T15:35:33.793Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:35:33.810Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:35:33.816Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 0.782 seconds (process running for 16.687)
+2024-05-21T15:35:33.820Z  INFO 32568 --- [mortgageCalculator] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-21T15:35:41.340Z  INFO 32568 --- [mortgageCalculator] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2024-05-21T15:35:41.561Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 32568 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:35:41.562Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:35:42.126Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:35:42.127Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:35:42.128Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:35:42.172Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:35:42.172Z  INFO 32568 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2024-05-21T15:35:42.353Z  WARN 32568 --- [mortgageCalculator] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 40bae675-ad3d-41bb-9d1f-723d43df0bb5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-21T15:35:42.375Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52628e01, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44f4a379, org.springframework.security.web.context.SecurityContextHolderFilter@110624ef, org.springframework.security.web.header.HeaderWriterFilter@32a0eafe, org.springframework.web.filter.CorsFilter@39fa84c5, org.springframework.security.web.csrf.CsrfFilter@525224de, org.springframework.security.web.authentication.logout.LogoutFilter@714d22e5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5814bcee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@f15f23d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4e631206, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4056e703, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52b196c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ad71883, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8379f4d, org.springframework.security.web.access.ExceptionTranslationFilter@3ada5a9a, org.springframework.security.web.access.intercept.AuthorizationFilter@53f8bf13]
+2024-05-21T15:35:42.401Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:35:42.433Z  INFO 32568 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:35:42.448Z  INFO 32568 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 0.953 seconds (process running for 25.319)
+2024-05-21T15:35:42.455Z  INFO 32568 --- [mortgageCalculator] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-21T15:46:54.197Z  INFO 9988 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 9988 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:46:54.202Z  INFO 9988 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:46:54.296Z  INFO 9988 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T15:46:54.297Z  INFO 9988 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T15:46:56.605Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:46:56.634Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:46:56.635Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:46:56.737Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:46:56.737Z  INFO 9988 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2439 ms
+2024-05-21T15:46:57.501Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:46:57.589Z  INFO 9988 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:46:57.606Z  INFO 9988 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 4.354 seconds (process running for 5.749)
+2024-05-21T15:48:36.127Z  INFO 27908 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 27908 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:48:36.132Z  INFO 27908 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:48:36.255Z  INFO 27908 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T15:48:36.256Z  INFO 27908 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T15:48:38.485Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:48:38.509Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:48:38.510Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:48:38.605Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:48:38.606Z  INFO 27908 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2347 ms
+2024-05-21T15:48:39.393Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:48:39.460Z  INFO 27908 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:48:39.476Z  INFO 27908 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 4.313 seconds (process running for 5.841)
+2024-05-21T15:51:06.246Z  INFO 26700 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Starting MortgageCalculatorApplication using Java 21.0.1 with PID 26700 (C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator\target\classes started by AndrewKoomson in C:\Users\AndrewKoomson\OneDrive - AmaliTech gGmbH\Dokumente\side projects 2\mortgageCalculator)
+2024-05-21T15:51:06.256Z  INFO 26700 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-21T15:51:06.464Z  INFO 26700 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21T15:51:06.465Z  INFO 26700 --- [mortgageCalculator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21T15:51:09.347Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4060 (http)
+2024-05-21T15:51:09.391Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21T15:51:09.392Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-21T15:51:09.511Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21T15:51:09.512Z  INFO 26700 --- [mortgageCalculator] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3046 ms
+2024-05-21T15:51:10.320Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21T15:51:10.396Z  INFO 26700 --- [mortgageCalculator] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4060 (http) with context path ''
+2024-05-21T15:51:10.417Z  INFO 26700 --- [mortgageCalculator] [restartedMain] c.k.m.MortgageCalculatorApplication      : Started MortgageCalculatorApplication in 5.557 seconds (process running for 9.371)
