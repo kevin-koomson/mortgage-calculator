@@ -8,10 +8,10 @@ public abstract class Loan {
     private Double rate;
     private Double years;
     private Double calculatedInterest;
+//    private Long id;
 
-    private Double calculateInterest() {
+    public void calculateInterest() {
         calculatedInterest = principal * (rate/100) * years;
-        return calculatedInterest;
     };
 
 }
